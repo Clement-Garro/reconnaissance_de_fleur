@@ -6,7 +6,7 @@ import numpy as np # linear algebra
 import os # accessing directory structure
 import pandas as pd # data processing, CSV file I/O (e.g. pd.read_csv)
 
-path = '../image_flowers/daisy/5673551_01d1ea993e_n.jpg'
+path = '../input'
 print(os.listdir(path))
 
 # Plot the PCA with either 2 or 3 reduced components
